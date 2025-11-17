@@ -62,6 +62,27 @@ public class ModLootTables {
         if (block == ModBlocks.PARASOL_MUSHROOM_BLOCK) return ModItems.PARASOL_MUSHROOM;
         if (block == ModBlocks.FLY_AGARIC_MUSHROOM) return ModItems.FLY_AGARIC;
         if (block == ModBlocks.DEATH_CAP_MUSHROOM) return ModItems.DEATH_CAP;
+        if (block == ModBlocks.MOREL_MUSHROOM) return ModItems.MOREL;
+        if (block == ModBlocks.CEP_MUSHROOM) return ModItems.CEP;
+        if (block == ModBlocks.ST_GEORGES_MUSHROOM_MUSHROOM) return ModItems.ST_GEORGES_MUSHROOM;
+        if (block == ModBlocks.FAIRY_RING_CHAMPIGNON_MUSHROOM) return ModItems.FAIRY_RING_CHAMPIGNON;
+        if (block == ModBlocks.AMETHYST_DECEIVER_MUSHROOM) return ModItems.AMETHYST_DECEIVER;
+        if (block == ModBlocks.CHARCOAL_BURNER_MUSHROOM) return ModItems.CHARCOAL_BURNER;
+        if (block == ModBlocks.VELVET_SHANK_MUSHROOM) return ModItems.VELVET_SHANK;
+        if (block == ModBlocks.PENNY_BUN_MUSHROOM) return ModItems.PENNY_BUN;
+        if (block == ModBlocks.COMMON_PUFFBALL_MUSHROOM) return ModItems.COMMON_PUFFBALL;
+        if (block == ModBlocks.SLIPPERY_JACK_MUSHROOM) return ModItems.SLIPPERY_JACK;
+        if (block == ModBlocks.WOOD_HEDGEHOG_MUSHROOM) return ModItems.WOOD_HEDGEHOG;
+        if (block == ModBlocks.ORANGE_BIRCH_BOLETE_MUSHROOM) return ModItems.ORANGE_BIRCH_BOLETE;
+        if (block == ModBlocks.HONEY_FUNGUS_MUSHROOM) return ModItems.HONEY_FUNGUS;
+        if (block == ModBlocks.COMMON_EARTHBALL_MUSHROOM) return ModItems.COMMON_EARTHBALL;
+        if (block == ModBlocks.SULPHUR_TUFT_MUSHROOM) return ModItems.SULPHUR_TUFT;
+        if (block == ModBlocks.SICKENER_MUSHROOM) return ModItems.SICKENER;
+        if (block == ModBlocks.BROWN_ROLL_RIM_MUSHROOM) return ModItems.BROWN_ROLL_RIM;
+        if (block == ModBlocks.BLEWIT_MUSHROOM) return ModItems.BLEWIT;
+        if (block == ModBlocks.SCARLET_WAXCAP_MUSHROOM) return ModItems.SCARLET_WAXCAP;
+        if (block == ModBlocks.WOOLLY_MILK_CAP_MUSHROOM) return ModItems.WOOLLY_MILK_CAP;
+        if (block == ModBlocks.DUNE_STINKHORN_MUSHROOM) return ModItems.DUNE_STINKHORN;
         return null;
     }
 }
