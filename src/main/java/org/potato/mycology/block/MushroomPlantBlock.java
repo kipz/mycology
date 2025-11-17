@@ -12,6 +12,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 /**
  * Base class for mushroom blocks that spawn naturally in the world.
  * Similar to vanilla mushroom blocks.
+ *
+ * Note: Item drops are handled by ModLootTables using Fabric's PlayerBlockBreakEvents.
  */
 public class MushroomPlantBlock extends BushBlock {
     public static final MapCodec<MushroomPlantBlock> CODEC = simpleCodec(MushroomPlantBlock::new);

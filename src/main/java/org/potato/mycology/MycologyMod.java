@@ -1,6 +1,7 @@
 package org.potato.mycology;
 
 import net.fabricmc.api.ModInitializer;
+import org.potato.mycology.loot.ModLootTables;
 import org.potato.mycology.registry.ModBlocks;
 import org.potato.mycology.registry.ModItemGroups;
 import org.potato.mycology.registry.ModItems;
@@ -24,6 +25,9 @@ public class MycologyMod implements ModInitializer {
 
 		// Register items
 		ModItems.registerItems();
+
+		// Register loot tables for mushroom blocks
+		ModLootTables.register();
 
 		// Register worldgen features and biome modifications
 		ModFeatures.registerBiomeModifications();
