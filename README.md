@@ -46,18 +46,43 @@ A comprehensive Minecraft mod featuring realistic UK mushroom species with ident
 ### Identification System
 - Hover tooltips with scientific names
 - Edibility ratings and toxicity warnings
-- Detailed identification features (Hold SHIFT)
+- Detailed identification features (Advanced tooltips - F3+H)
 - Based on real UK field guide characteristics
+- Color-coded edibility indicators
+- Clear toxicity warnings (⚠ and ☠ symbols)
+
+### World Generation
+- 4 mushroom species spawn naturally in the world
+- Biome-specific placement (Forest, Taiga biomes)
+- Random patch generation on grass blocks, dirt, and podzol
+- Natural discovery and foraging gameplay
+
+### Block System
+- 7 placeable mushroom blocks (5 edible, 2 poisonous)
+- Non-solid blocks with instant breaking
+- Grass-like sound effects
+- Proper loot drops when harvested
+
+### Game Effects
+- **Edible mushrooms**: Provide nutrition and saturation
+- **Medicinal mushrooms**: Grant beneficial potion effects (Regeneration, Hero of the Village)
+- **Poisonous mushrooms**: Apply harmful effects (Poison, Wither, Confusion) with severity matching real toxicity
+
+### Creative Tabs Organization
+- **Food & Drinks**: 17 edible mushroom items
+- **Ingredients**: 6 medicinal mushroom items
+- **Poisonous mushrooms**: Not in creative tabs (only obtainable through world generation for safety)
 
 ### Planned Features (Future Updates)
 - Progressive learning system (unlock mushroom knowledge through discovery)
-- Biome-specific spawning (Oak/Birch/Spruce forests, Plains, Swamps)
+- Expanded world generation for all 31 species
+- Tree association spawning (mycorrhizal relationships)
 - Field Guide book item with identification flowcharts
 - Medicinal crafting system (tinctures, teas, salves)
 - Integration with vanilla brewing system
 - Seasonal spawning mechanics
-- Tree association (mycorrhizal relationships)
-- Custom mushroom blocks for world generation
+- Mushroom cultivation and farming
+- Custom pixel art textures for all species
 
 ## Requirements
 
@@ -120,17 +145,30 @@ mc-plugin/
 │   ├── java/org/potato/mycology/
 │   │   ├── MycologyMod.java              # Main mod entry point
 │   │   ├── MycologyModClient.java        # Client-side initialization
+│   │   ├── block/
+│   │   │   └── MushroomPlantBlock.java   # Base mushroom block class
 │   │   ├── item/mushroom/
 │   │   │   ├── MushroomItem.java         # Base mushroom item class
 │   │   │   └── MushroomProperties.java   # Mushroom characteristics
-│   │   └── registry/
-│   │       └── ModItems.java             # Item registration
+│   │   ├── registry/
+│   │   │   ├── ModItems.java             # Item registration
+│   │   │   ├── ModBlocks.java            # Block registration
+│   │   │   └── ModItemGroups.java        # Creative tab setup
+│   │   └── worldgen/
+│   │       └── ModFeatures.java          # World generation features
 │   └── resources/
 │       ├── fabric.mod.json               # Mod metadata
 │       ├── mycology.mixins.json          # Mixin configuration
-│       └── assets/mycology/
-│           ├── lang/en_us.json           # English translations
-│           └── textures/item/            # Item textures (TODO)
+│       ├── assets/mycology/
+│       │   ├── lang/en_us.json           # English translations
+│       │   ├── models/                   # Block and item models
+│       │   ├── blockstates/              # Block state definitions
+│       │   └── textures/item/            # Item textures (TODO)
+│       └── data/mycology/
+│           ├── worldgen/
+│           │   ├── configured_feature/   # Feature configurations
+│           │   └── placed_feature/       # Feature placements
+│           └── loot_tables/blocks/       # Block drop tables
 ├── build.gradle                          # Build configuration
 ├── gradle.properties                     # Mod properties
 └── README.md                             # This file
@@ -143,10 +181,15 @@ mc-plugin/
 - [x] Register all 31 species
 - [x] Implement identification tooltips
 - [x] Add food properties and effects
+- [x] Create 7 mushroom blocks (Chanterelle, Porcini, Field Mushroom, Oyster, Parasol, Fly Agaric, Death Cap)
+- [x] Add block models and blockstates
 
-### Phase 2: World Generation (In Progress)
-- [ ] Create mushroom block entities
-- [ ] Implement biome-specific spawning
+### Phase 2: World Generation (Partially Complete) ⏳
+- [x] Create mushroom block entities
+- [x] Implement basic biome-specific spawning for 4 species
+- [x] Configure world generation features (configured_feature and placed_feature)
+- [x] Add loot tables for mushroom blocks
+- [ ] Expand world generation to all mushroom species
 - [ ] Add tree association logic
 - [ ] Configure rarity tiers
 - [ ] Optional seasonal mechanics
