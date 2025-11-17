@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "mycology",
+  "version": "${version}",
+  "name": "Mycology",
+  "description": "A comprehensive UK mushroom foraging mod featuring realistic identification, medicinal properties, and diverse mushroom species across different biomes.",
+  "authors": [
+    "org.potato"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/mycology/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.potato.mycology.MycologyMod"
+    ],
+    "client": [
+      "org.potato.mycology.MycologyModClient"
+    ]
+  },
+  "mixins": [
+    "mycology.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

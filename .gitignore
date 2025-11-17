@@ -1,0 +1,59 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Eclipse
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Fabric
+run/
+logs/
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Minecraft
+crash-reports/
+screenshots/
+saves/
+resourcepacks/
+config/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Gradle wrapper (keep gradlew scripts but not the jar)
+!gradle/wrapper/gradle-wrapper.jar
+/bin
+/gradle-8.11.1/
+/gradle.zip

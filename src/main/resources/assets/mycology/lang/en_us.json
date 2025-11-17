@@ -1,0 +1,38 @@
+{
+  "item.mycology.chanterelle": "Chanterelle",
+  "item.mycology.porcini": "Porcini",
+  "item.mycology.field_mushroom": "Field Mushroom",
+  "item.mycology.oyster_mushroom": "Oyster Mushroom",
+  "item.mycology.parasol_mushroom": "Parasol Mushroom",
+  "item.mycology.giant_puffball": "Giant Puffball",
+  "item.mycology.bay_bolete": "Bay Bolete",
+  "item.mycology.chicken_of_the_woods": "Chicken of the Woods",
+  "item.mycology.hedgehog_mushroom": "Hedgehog Mushroom",
+  "item.mycology.wood_blewit": "Wood Blewit",
+  "item.mycology.shaggy_ink_cap": "Shaggy Ink Cap",
+  "item.mycology.horn_of_plenty": "Horn of Plenty",
+  "item.mycology.beefsteak_fungus": "Beefsteak Fungus",
+  "item.mycology.saffron_milk_cap": "Saffron Milk Cap",
+  "item.mycology.dryads_saddle": "Dryad's Saddle",
+
+  "item.mycology.turkey_tail": "Turkey Tail",
+  "item.mycology.birch_polypore": "Birch Polypore",
+  "item.mycology.jelly_ear": "Jelly Ear",
+  "item.mycology.hoof_fungus": "Hoof Fungus",
+  "item.mycology.artists_bracket": "Artist's Bracket",
+  "item.mycology.chaga": "Chaga",
+  "item.mycology.reishi": "Reishi",
+  "item.mycology.lions_mane": "Lion's Mane",
+
+  "item.mycology.death_cap": "Death Cap",
+  "item.mycology.destroying_angel": "Destroying Angel",
+  "item.mycology.deadly_fibrecap": "Deadly Fibrecap",
+  "item.mycology.deadly_webcap": "Deadly Webcap",
+  "item.mycology.yellow_stainer": "Yellow Stainer",
+  "item.mycology.fly_agaric": "Fly Agaric",
+  "item.mycology.panther_cap": "Panther Cap",
+  "item.mycology.false_chanterelle": "False Chanterelle",
+
+  "itemGroup.mycology.mushrooms": "Mycology",
+  "itemGroup.mycology.mycology_tab": "Mycology"
+}
