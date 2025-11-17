@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "mycology:block/death_cap_mushroom"
+      "model": "mycology:block/death_cap"
     }
   }
 }

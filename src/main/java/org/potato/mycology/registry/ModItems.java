@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
+import net.minecraft.world.level.block.Block;
 import org.potato.mycology.MycologyMod;
 import org.potato.mycology.item.mushroom.MushroomItem;
 import org.potato.mycology.item.mushroom.MushroomProperties;
@@ -132,7 +133,7 @@ public class ModItems {
     // ========== EDIBLE MUSHROOMS ==========
 
     public static final Item CHANTERELLE = registerMushroomItem("chanterelle",
-            ModBlocks.CHANTERELLE,
+            ModBlocks.CHANTERELLE_MUSHROOM,
             new MushroomProperties.Builder()
                     .scientificName("Cantharellus cibarius")
                     .category(MushroomCategory.EDIBLE)
@@ -152,7 +153,7 @@ public class ModItems {
     );
 
     public static final Item PORCINI = registerMushroomItem("porcini",
-            ModBlocks.PORCINI,
+            ModBlocks.PORCINI_MUSHROOM,
             new MushroomProperties.Builder()
                     .scientificName("Boletus edulis")
                     .category(MushroomCategory.EDIBLE)
@@ -171,7 +172,7 @@ public class ModItems {
     );
 
     public static final Item FIELD_MUSHROOM = registerMushroomItem("field_mushroom",
-            ModBlocks.FIELD_MUSHROOM,
+            ModBlocks.FIELD_MUSHROOM_BLOCK,
             new MushroomProperties.Builder()
                     .scientificName("Agaricus campestris")
                     .category(MushroomCategory.EDIBLE)
@@ -190,7 +191,7 @@ public class ModItems {
     );
 
     public static final Item OYSTER_MUSHROOM = registerMushroomItem("oyster_mushroom",
-            ModBlocks.OYSTER_MUSHROOM,
+            ModBlocks.OYSTER_MUSHROOM_BLOCK,
             new MushroomProperties.Builder()
                     .scientificName("Pleurotus ostreatus")
                     .category(MushroomCategory.EDIBLE)
@@ -209,7 +210,7 @@ public class ModItems {
     );
 
     public static final Item PARASOL_MUSHROOM = registerMushroomItem("parasol_mushroom",
-            ModBlocks.PARASOL_MUSHROOM,
+            ModBlocks.PARASOL_MUSHROOM_BLOCK,
             new MushroomProperties.Builder()
                     .scientificName("Macrolepiota procera")
                     .category(MushroomCategory.EDIBLE)
@@ -534,7 +535,7 @@ public class ModItems {
     // ========== POISONOUS MUSHROOMS ==========
 
     public static final Item DEATH_CAP = registerMushroomItem("death_cap",
-            ModBlocks.DEATH_CAP,
+            ModBlocks.DEATH_CAP_MUSHROOM,
             new MushroomProperties.Builder()
                     .scientificName("Amanita phalloides")
                     .category(MushroomCategory.POISONOUS)
@@ -632,7 +633,7 @@ public class ModItems {
     );
 
     public static final Item FLY_AGARIC = registerMushroomItem("fly_agaric",
-            ModBlocks.FLY_AGARIC,
+            ModBlocks.FLY_AGARIC_MUSHROOM,
             new MushroomProperties.Builder()
                     .scientificName("Amanita muscaria")
                     .category(MushroomCategory.POISONOUS)

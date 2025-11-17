@@ -21,9 +21,8 @@ import org.potato.mycology.block.MushroomPlantBlock;
 public class ModBlocks {
 
     // ========== EDIBLE MUSHROOM BLOCKS ==========
-    // Blocks use the same name as their corresponding items (vanilla pattern)
 
-    public static final Block CHANTERELLE = registerBlockWithItem("chanterelle",
+    public static final Block CHANTERELLE_MUSHROOM = registerBlock("chanterelle_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_ORANGE)
                     .noCollission()
@@ -31,7 +30,7 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY));
 
-    public static final Block PORCINI = registerBlockWithItem("porcini",
+    public static final Block PORCINI_MUSHROOM = registerBlock("porcini_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_BROWN)
                     .noCollission()
@@ -39,7 +38,7 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY));
 
-    public static final Block FIELD_MUSHROOM = registerBlockWithItem("field_mushroom",
+    public static final Block FIELD_MUSHROOM_BLOCK = registerBlock("field_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.WOOL)
                     .noCollission()
@@ -47,7 +46,7 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY));
 
-    public static final Block OYSTER_MUSHROOM = registerBlockWithItem("oyster_mushroom",
+    public static final Block OYSTER_MUSHROOM_BLOCK = registerBlock("oyster_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.WOOL)
                     .noCollission()
@@ -55,7 +54,7 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY));
 
-    public static final Block PARASOL_MUSHROOM = registerBlockWithItem("parasol_mushroom",
+    public static final Block PARASOL_MUSHROOM_BLOCK = registerBlock("parasol_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_BROWN)
                     .noCollission()
@@ -65,7 +64,7 @@ public class ModBlocks {
 
     // ========== POISONOUS MUSHROOM BLOCKS ==========
 
-    public static final Block FLY_AGARIC = registerBlockWithItem("fly_agaric",
+    public static final Block FLY_AGARIC_MUSHROOM = registerBlock("fly_agaric_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_RED)
                     .noCollission()
@@ -73,7 +72,7 @@ public class ModBlocks {
                     .sound(SoundType.GRASS)
                     .pushReaction(PushReaction.DESTROY));
 
-    public static final Block DEATH_CAP = registerBlockWithItem("death_cap",
+    public static final Block DEATH_CAP_MUSHROOM = registerBlock("death_cap_mushroom",
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_GREEN)
                     .noCollission()
@@ -82,9 +81,9 @@ public class ModBlocks {
                     .pushReaction(PushReaction.DESTROY));
 
     /**
-     * Register a block (items will be registered separately as BlockItems in ModItems)
+     * Register a block with proper ResourceKey
      */
-    private static Block registerBlockWithItem(String name, BlockBehaviour.Properties properties) {
+    private static Block registerBlock(String name, BlockBehaviour.Properties properties) {
         ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MycologyMod.MOD_ID, name);
         ResourceKey<Block> blockKey = ResourceKey.create(BuiltInRegistries.BLOCK.key(), id);
         Block block = new MushroomPlantBlock(properties.setId(blockKey));

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "mycology:block/porcini_mushroom"
+      "model": "mycology:block/porcini"
     }
   }
 }
