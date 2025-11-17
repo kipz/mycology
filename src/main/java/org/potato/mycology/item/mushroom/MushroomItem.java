@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.Consumable;
+import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.level.block.Block;
 import org.potato.mycology.item.mushroom.MushroomProperties.EdibilityRating;
 import org.potato.mycology.item.mushroom.MushroomProperties.ToxicityLevel;
@@ -36,7 +37,8 @@ public class MushroomItem extends BlockItem {
     public MushroomItem(Block block, MushroomProperties mushroomProperties, ResourceKey<Item> key, FoodProperties foodProperties) {
         super(block, new Properties()
                 .setId(key)
-                .component(DataComponents.FOOD, foodProperties));
+                .component(DataComponents.FOOD, foodProperties)
+                .component(DataComponents.CONSUMABLE, Consumables.defaultFood().build()));
         this.mushroomProperties = mushroomProperties;
     }
 
