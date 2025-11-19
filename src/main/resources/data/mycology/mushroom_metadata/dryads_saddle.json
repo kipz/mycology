@@ -1,0 +1,13 @@
+{
+  "name": "dryads_saddle",
+  "scientific_name": "Cerioporus squamosus",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

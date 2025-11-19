@@ -1,0 +1,1914 @@
+{
+  "amethyst_deceiver": {
+    "name": "amethyst_deceiver",
+    "scientific_name": "Laccaria amethystina",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "aniseed_funnel": {
+    "name": "aniseed_funnel",
+    "scientific_name": "Clitocybe odora",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "artists_bracket": {
+    "name": "artists_bracket",
+    "scientific_name": "Ganoderma applanatum",
+    "edibility": "MEDICINAL_ONLY",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "bay_bolete": {
+    "name": "bay_bolete",
+    "scientific_name": "Imleria badia",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "beech_woodwart": {
+    "name": "beech_woodwart",
+    "scientific_name": "Hypoxylon fragiforme",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "beechwood_sickener": {
+    "name": "beechwood_sickener",
+    "scientific_name": "Russula nobilis",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (400 ticks), Confusion I (600 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "beefsteak_fungus": {
+    "name": "beefsteak_fungus",
+    "scientific_name": "Fistulina hepatica",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "birch_polypore": {
+    "name": "birch_polypore",
+    "scientific_name": "Fomitopsis betulina",
+    "edibility": "MEDICINAL_ONLY",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "bitter_oysterling": {
+    "name": "bitter_oysterling",
+    "scientific_name": "Panellus stipticus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Weakness I (200 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "black_trumpet": {
+    "name": "black_trumpet",
+    "scientific_name": "Craterellus cornucopioides",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "blackedge_bonnet": {
+    "name": "blackedge_bonnet",
+    "scientific_name": "Mycena pelianthina",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (0:15)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "blackening_waxcap": {
+    "name": "blackening_waxcap",
+    "scientific_name": "Hygrocybe conica",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (200 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "bleeding_fairy_helmet": {
+    "name": "bleeding_fairy_helmet",
+    "scientific_name": "Mycena haematopus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "blewit": {
+    "name": "blewit",
+    "scientific_name": "Lepista nuda",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "blusher": {
+    "name": "blusher",
+    "scientific_name": "Amanita rubescens",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "bovine_bolete": {
+    "name": "bovine_bolete",
+    "scientific_name": "Suillus bovinus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "brown_birch_bolete": {
+    "name": "brown_birch_bolete",
+    "scientific_name": "Leccinum scabrum",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "brown_roll_rim": {
+    "name": "brown_roll_rim",
+    "scientific_name": "Paxillus involutus",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (1000 ticks), Wither I (800 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "burgundydrop_bonnet": {
+    "name": "burgundydrop_bonnet",
+    "scientific_name": "Mycena haematopus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "butter_cap": {
+    "name": "butter_cap",
+    "scientific_name": "Rhodocollybia butyracea",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.2,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "cauliflower_fungus": {
+    "name": "cauliflower_fungus",
+    "scientific_name": "Sparassis crispa",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "cep": {
+    "name": "cep",
+    "scientific_name": "Boletus edulis",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 5,
+    "saturation": 0.8,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "chaga": {
+    "name": "chaga",
+    "scientific_name": "Inonotus obliquus",
+    "edibility": "MEDICINAL_ONLY",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "chanterelle": {
+    "name": "chanterelle",
+    "scientific_name": "Cantharellus cibarius",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "charcoal_burner": {
+    "name": "charcoal_burner",
+    "scientific_name": "Russula cyanoxantha",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "chicken_of_the_woods": {
+    "name": "chicken_of_the_woods",
+    "scientific_name": "Laetiporus sulphureus",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "cinnabar_bracket": {
+    "name": "cinnabar_bracket",
+    "scientific_name": "Pycnoporus cinnabarinus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "clouded_funnel": {
+    "name": "clouded_funnel",
+    "scientific_name": "Clitocybe nebularis",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "clustered_bonnet": {
+    "name": "clustered_bonnet",
+    "scientific_name": "Mycena inclinata",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "coconut_milk_cap": {
+    "name": "coconut_milk_cap",
+    "scientific_name": "Lactarius glyciosmus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "collared_parachute": {
+    "name": "collared_parachute",
+    "scientific_name": "Marasmius scorodonius",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.1,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "common_cavalier": {
+    "name": "common_cavalier",
+    "scientific_name": "Melanoleuca polioleuca",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "common_earthball": {
+    "name": "common_earthball",
+    "scientific_name": "Scleroderma citrinum",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (400 ticks), Confusion I (300 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "common_morel": {
+    "name": "common_morel",
+    "scientific_name": "Morchella esculenta",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 6,
+    "saturation": 0.8,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "common_puffball": {
+    "name": "common_puffball",
+    "scientific_name": "Lycoperdon perlatum",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "common_white_inocybe": {
+    "name": "common_white_inocybe",
+    "scientific_name": "Inocybe geophylla",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": -2,
+    "saturation": 0.0,
+    "effects": [
+      "Poison III (0:15), Nausea II (0:20)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "coral_spot": {
+    "name": "coral_spot",
+    "scientific_name": "Nectria cinnabarina",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "cramp_balls": {
+    "name": "cramp_balls",
+    "scientific_name": "Daldinia concentrica",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "deadly_dapperling": {
+    "name": "deadly_dapperling",
+    "scientific_name": "Lepiota brunneoincarnata",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Wither II (600 ticks), Poison III (1000 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "deadly_fibrecap": {
+    "name": "deadly_fibrecap",
+    "scientific_name": "Inocybe erubescens",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (800 ticks), Confusion I (600 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "deadly_parasol": {
+    "name": "deadly_parasol",
+    "scientific_name": "Chlorophyllum molybdites",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Wither II (600 ticks), Poison III (1000 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "deadly_webcap": {
+    "name": "deadly_webcap",
+    "scientific_name": "Cortinarius rubellus",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Wither I (1200 ticks), Poison II (1200 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "death_cap": {
+    "name": "death_cap",
+    "scientific_name": "Amanita phalloides",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Wither II (600 ticks), Poison III (1200 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "deceiver": {
+    "name": "deceiver",
+    "scientific_name": "Laccaria laccata",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "destroying_angel": {
+    "name": "destroying_angel",
+    "scientific_name": "Amanita virosa",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Wither II (600 ticks), Poison III (1200 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "devils_bolete": {
+    "name": "devils_bolete",
+    "scientific_name": "Rubroboletus satanas",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (600 ticks), Confusion I (800 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "dotted_stem_bolete": {
+    "name": "dotted_stem_bolete",
+    "scientific_name": "Neoboletus luridiformis",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "dryads_saddle": {
+    "name": "dryads_saddle",
+    "scientific_name": "Cerioporus squamosus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "dune_stinkhorn": {
+    "name": "dune_stinkhorn",
+    "scientific_name": "Phallus impudicus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.2,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "earpick_fungus": {
+    "name": "earpick_fungus",
+    "scientific_name": "Auriscalpium vulgare",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "fairies_bonnet": {
+    "name": "fairies_bonnet",
+    "scientific_name": "Coprinellus disseminatus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.1,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "fairy_ring_champignon": {
+    "name": "fairy_ring_champignon",
+    "scientific_name": "Marasmius oreades",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "false_chanterelle": {
+    "name": "false_chanterelle",
+    "scientific_name": "Hygrophoropsis aurantiaca",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Weakness I (200 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "false_death_cap": {
+    "name": "false_death_cap",
+    "scientific_name": "Amanita citrina",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Weakness I (0:30)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "field_mushroom": {
+    "name": "field_mushroom",
+    "scientific_name": "Agaricus campestris",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "fly_agaric": {
+    "name": "fly_agaric",
+    "scientific_name": "Amanita muscaria",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (600 ticks), Confusion II (800 ticks), Slowness II (400 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "fools_funnel": {
+    "name": "fools_funnel",
+    "scientific_name": "Clitocybe rivulosa",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison III (800 ticks), Confusion II (600 ticks)"
+    ],
+    "habitat": [
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "funeral_bell": {
+    "name": "funeral_bell",
+    "scientific_name": "Galerina marginata",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Wither II (800 ticks), Poison III (1200 ticks)"
+    ],
+    "habitat": [
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "geranium_brittlestem": {
+    "name": "geranium_brittlestem",
+    "scientific_name": "Psathyrella corrugis",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "giant_puffball": {
+    "name": "giant_puffball",
+    "scientific_name": "Calvatia gigantea",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "glistening_inkcap": {
+    "name": "glistening_inkcap",
+    "scientific_name": "Coprinellus micaceus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "golden_waxcap": {
+    "name": "golden_waxcap",
+    "scientific_name": "Hygrocybe chlorophana",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "grey_knight": {
+    "name": "grey_knight",
+    "scientific_name": "Tricholoma terreum",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "grey_spotted_amanita": {
+    "name": "grey_spotted_amanita",
+    "scientific_name": "Amanita spissa",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "grisette": {
+    "name": "grisette",
+    "scientific_name": "Amanita vaginata",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "hairy_curtain_crust": {
+    "name": "hairy_curtain_crust",
+    "scientific_name": "Stereum hirsutum",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "hedgehog_mushroom": {
+    "name": "hedgehog_mushroom",
+    "scientific_name": "Hydnum repandum",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "honey_fungus": {
+    "name": "honey_fungus",
+    "scientific_name": "Armillaria mellea",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [
+      "Small chance of Nausea I (0:10)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "hoof_fungus": {
+    "name": "hoof_fungus",
+    "scientific_name": "Fomes fomentarius",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "horn_of_plenty": {
+    "name": "horn_of_plenty",
+    "scientific_name": "Craterellus cornucopioides",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "horsehair_parachute": {
+    "name": "horsehair_parachute",
+    "scientific_name": "Gymnopus androsaceus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "ivory_funnel": {
+    "name": "ivory_funnel",
+    "scientific_name": "Clitocybe dealbata",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison III (800 ticks), Confusion II (600 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "jelly_babies": {
+    "name": "jelly_babies",
+    "scientific_name": "Leotia lubrica",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Nausea I (0:20), Weakness I (0:15)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "jelly_ear": {
+    "name": "jelly_ear",
+    "scientific_name": "Auricularia auricula-judae",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "larch_bolete": {
+    "name": "larch_bolete",
+    "scientific_name": "Suillus grevillei",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "liberty_cap": {
+    "name": "liberty_cap",
+    "scientific_name": "Psilocybe semilanceata",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Confusion III (1200 ticks), Nausea II (600 ticks), Blindness I (400 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "lilac_fibrecap": {
+    "name": "lilac_fibrecap",
+    "scientific_name": "Inocybe geophylla",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": -3,
+    "saturation": 0.0,
+    "effects": [
+      "Poison IV (0:20), Nausea III (0:30), Weakness II (0:25)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "lions_mane": {
+    "name": "lions_mane",
+    "scientific_name": "Hericium erinaceus",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "livid_pinkgill": {
+    "name": "livid_pinkgill",
+    "scientific_name": "Entoloma sinuatum",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": -2,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (0:30), Nausea III (0:40), Hunger II (0:35)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "lurid_bolete": {
+    "name": "lurid_bolete",
+    "scientific_name": "Suillellus luridus",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "magpie_inkcap": {
+    "name": "magpie_inkcap",
+    "scientific_name": "Coprinopsis picacea",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "miller": {
+    "name": "miller",
+    "scientific_name": "Clitopilus prunulus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "morel": {
+    "name": "morel",
+    "scientific_name": "Morchella elata",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 6,
+    "saturation": 0.8,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "oak_milk_cap": {
+    "name": "oak_milk_cap",
+    "scientific_name": "Lactarius quietus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.2,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "orange_birch_bolete": {
+    "name": "orange_birch_bolete",
+    "scientific_name": "Leccinum versipelle",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "orange_peel_fungus": {
+    "name": "orange_peel_fungus",
+    "scientific_name": "Aleuria aurantia",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.2,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "oyster_mushroom": {
+    "name": "oyster_mushroom",
+    "scientific_name": "Pleurotus ostreatus",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "panther_cap": {
+    "name": "panther_cap",
+    "scientific_name": "Amanita pantherina",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison III (800 ticks), Confusion III (1000 ticks), Wither I (600 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "parasol_mushroom": {
+    "name": "parasol_mushroom",
+    "scientific_name": "Macrolepiota procera",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "parrot_waxcap": {
+    "name": "parrot_waxcap",
+    "scientific_name": "Gliophorus psittacinus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.1,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "penny_bun": {
+    "name": "penny_bun",
+    "scientific_name": "Boletus edulis",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "pleated_inkcap": {
+    "name": "pleated_inkcap",
+    "scientific_name": "Parasola plicatilis",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "poison_pie": {
+    "name": "poison_pie",
+    "scientific_name": "Hebeloma crustuliniforme",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": -1,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (0:25), Nausea II (0:30)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "porcelain_fungus": {
+    "name": "porcelain_fungus",
+    "scientific_name": "Oudemansiella mucida",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "porcini": {
+    "name": "porcini",
+    "scientific_name": "Boletus edulis",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "red_cracking_bolete": {
+    "name": "red_cracking_bolete",
+    "scientific_name": "Xerocomellus chrysenteron",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "red_staining_inocybe": {
+    "name": "red_staining_inocybe",
+    "scientific_name": "Inosperma erubescens",
+    "edibility": "DEADLY",
+    "toxicity": "LETHAL",
+    "nutrition": -4,
+    "saturation": 0.0,
+    "effects": [
+      "Poison V (0:30), Nausea IV (0:40), Weakness III (0:35)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "reishi": {
+    "name": "reishi",
+    "scientific_name": "Ganoderma lucidum",
+    "edibility": "MEDICINAL_ONLY",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "rooting_bolete": {
+    "name": "rooting_bolete",
+    "scientific_name": "Hymenopellis radicata",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "rosy_bonnet": {
+    "name": "rosy_bonnet",
+    "scientific_name": "Mycena rosea",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "rufous_milk_cap": {
+    "name": "rufous_milk_cap",
+    "scientific_name": "Lactarius rufus",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (400 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "saffron_milk_cap": {
+    "name": "saffron_milk_cap",
+    "scientific_name": "Lactarius deliciosus",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "scarlet_caterpillarclub": {
+    "name": "scarlet_caterpillarclub",
+    "scientific_name": "Cordyceps militaris",
+    "edibility": "MEDICINAL_ONLY",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "scarlet_elf_cup": {
+    "name": "scarlet_elf_cup",
+    "scientific_name": "Sarcoscypha coccinea",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "scarlet_waxcap": {
+    "name": "scarlet_waxcap",
+    "scientific_name": "Hygrocybe coccinea",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "scarletina_bolete": {
+    "name": "scarletina_bolete",
+    "scientific_name": "Neoboletus luridiformis",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "shaggy_ink_cap": {
+    "name": "shaggy_ink_cap",
+    "scientific_name": "Coprinus comatus",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "sickener": {
+    "name": "sickener",
+    "scientific_name": "Russula emetica",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (400 ticks), Confusion I (300 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "slippery_jack": {
+    "name": "slippery_jack",
+    "scientific_name": "Suillus luteus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "snowy_waxcap": {
+    "name": "snowy_waxcap",
+    "scientific_name": "Cuphophyllus virgineus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "spectacular_rustgill": {
+    "name": "spectacular_rustgill",
+    "scientific_name": "Gymnopilus junonius",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (400 ticks), Confusion II (800 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "split_gill": {
+    "name": "split_gill",
+    "scientific_name": "Schizophyllum commune",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.1,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "spotted_toughshank": {
+    "name": "spotted_toughshank",
+    "scientific_name": "Gymnopus dryophilus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.2,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "st_georges_mushroom": {
+    "name": "st_georges_mushroom",
+    "scientific_name": "Calocybe gambosa",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "stump_puffball": {
+    "name": "stump_puffball",
+    "scientific_name": "Lycoperdon pyriforme",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "suede_bolete": {
+    "name": "suede_bolete",
+    "scientific_name": "Xerocomus subtomentosus",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "sulphur_tuft": {
+    "name": "sulphur_tuft",
+    "scientific_name": "Hypholoma fasciculare",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (600 ticks), Confusion I (400 ticks)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "summer_truffle": {
+    "name": "summer_truffle",
+    "scientific_name": "Tuber aestivum",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 7,
+    "saturation": 1.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "tawny_funnel": {
+    "name": "tawny_funnel",
+    "scientific_name": "Paralepista flaccida",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 2,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "tawny_grisette": {
+    "name": "tawny_grisette",
+    "scientific_name": "Amanita fulva",
+    "edibility": "EDIBLE_CAUTION",
+    "toxicity": "MILD",
+    "nutrition": 3,
+    "saturation": 0.4,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "terracotta_hedgehog": {
+    "name": "terracotta_hedgehog",
+    "scientific_name": "Hydnum rufescens",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 5,
+    "saturation": 0.7,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "thick_maze_oak_polypore": {
+    "name": "thick_maze_oak_polypore",
+    "scientific_name": "Daedalea quercina",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "tiger_sawgill": {
+    "name": "tiger_sawgill",
+    "scientific_name": "Lentinus tigrinus",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "trooping_funnel": {
+    "name": "trooping_funnel",
+    "scientific_name": "Clitocybe geotropa",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "trumpet_chanterelle": {
+    "name": "trumpet_chanterelle",
+    "scientific_name": "Cantharellus tubaeformis",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "turkey_tail": {
+    "name": "turkey_tail",
+    "scientific_name": "Trametes versicolor",
+    "edibility": "MEDICINAL_ONLY",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "ugly_milk_cap": {
+    "name": "ugly_milk_cap",
+    "scientific_name": "Lactarius turpis",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": -2,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (0:30), Nausea II (0:25), Weakness I (0:20)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "velvet_shank": {
+    "name": "velvet_shank",
+    "scientific_name": "Flammulina velutipes",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "verdigris_agaric": {
+    "name": "verdigris_agaric",
+    "scientific_name": "Stropharia aeruginosa",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "willow_bracket": {
+    "name": "willow_bracket",
+    "scientific_name": "Phellinus igniarius",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "winter_chanterelle": {
+    "name": "winter_chanterelle",
+    "scientific_name": "Craterellus tubaeformis",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "witches_butter": {
+    "name": "witches_butter",
+    "scientific_name": "Tremella mesenterica",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.1,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "wood_blewit": {
+    "name": "wood_blewit",
+    "scientific_name": "Lepista nuda",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "wood_hedgehog": {
+    "name": "wood_hedgehog",
+    "scientific_name": "Hydnum repandum",
+    "edibility": "CHOICE_EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 6,
+    "saturation": 0.8,
+    "effects": [],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 2
+  },
+  "woolly_milk_cap": {
+    "name": "woolly_milk_cap",
+    "scientific_name": "Lactarius torminosus",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": -1,
+    "saturation": 0.0,
+    "effects": [
+      "Poison II (0:20), Nausea II (0:30)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  },
+  "yellow_brain": {
+    "name": "yellow_brain",
+    "scientific_name": "Tremella mesenterica",
+    "edibility": "EDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 1,
+    "saturation": 0.1,
+    "effects": [],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 2
+  },
+  "yellow_knight": {
+    "name": "yellow_knight",
+    "scientific_name": "Tricholoma equestre",
+    "edibility": "INEDIBLE",
+    "toxicity": "NONE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Weakness III (0:45), Nausea I (0:20)"
+    ],
+    "habitat": [
+      "FOREST",
+      "TAIGA"
+    ],
+    "spawn_rarity": 4
+  },
+  "yellow_stainer": {
+    "name": "yellow_stainer",
+    "scientific_name": "Agaricus xanthodermus",
+    "edibility": "POISONOUS",
+    "toxicity": "SEVERE",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "effects": [
+      "Poison I (400 ticks), Confusion I (300 ticks)"
+    ],
+    "habitat": [
+      "FOREST"
+    ],
+    "spawn_rarity": 4
+  }
+}

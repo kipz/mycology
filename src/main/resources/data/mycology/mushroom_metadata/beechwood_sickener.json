@@ -1,0 +1,16 @@
+{
+  "name": "beechwood_sickener",
+  "scientific_name": "Russula nobilis",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Poison I (400 ticks), Confusion I (600 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,13 @@
+{
+  "name": "lurid_bolete",
+  "scientific_name": "Suillellus luridus",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 5,
+  "saturation": 0.7,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

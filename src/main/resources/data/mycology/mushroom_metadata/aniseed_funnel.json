@@ -1,0 +1,14 @@
+{
+  "name": "aniseed_funnel",
+  "scientific_name": "Clitocybe odora",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

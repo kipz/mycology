@@ -1,0 +1,13 @@
+{
+  "name": "snowy_waxcap",
+  "scientific_name": "Cuphophyllus virgineus",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

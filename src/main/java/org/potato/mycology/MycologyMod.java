@@ -17,6 +17,10 @@ public class MycologyMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing Mycology Mod");
 
+		// NOTE: Dynamic registration system is available but disabled due to worldgen timing issues
+		// Worldgen JSONs are loaded before mod initialization, so blocks must be statically registered
+		// DynamicMushroomRegistry.registerAll();
+
 		// Register blocks (must be before items)
 		ModBlocks.registerBlocks();
 

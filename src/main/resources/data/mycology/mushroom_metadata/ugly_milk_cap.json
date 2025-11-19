@@ -1,0 +1,15 @@
+{
+  "name": "ugly_milk_cap",
+  "scientific_name": "Lactarius turpis",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": -2,
+  "saturation": 0.0,
+  "effects": [
+    "Poison II (0:30), Nausea II (0:25), Weakness I (0:20)"
+  ],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

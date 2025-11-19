@@ -1,0 +1,13 @@
+{
+  "name": "morel",
+  "scientific_name": "Morchella elata",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 6,
+  "saturation": 0.8,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

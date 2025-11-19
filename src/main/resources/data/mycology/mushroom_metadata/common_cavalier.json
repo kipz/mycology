@@ -1,0 +1,13 @@
+{
+  "name": "common_cavalier",
+  "scientific_name": "Melanoleuca polioleuca",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

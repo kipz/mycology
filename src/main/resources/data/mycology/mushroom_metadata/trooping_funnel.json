@@ -1,0 +1,13 @@
+{
+  "name": "trooping_funnel",
+  "scientific_name": "Clitocybe geotropa",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

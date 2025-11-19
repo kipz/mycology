@@ -1,0 +1,14 @@
+{
+  "name": "scarletina_bolete",
+  "scientific_name": "Neoboletus luridiformis",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 5,
+  "saturation": 0.7,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

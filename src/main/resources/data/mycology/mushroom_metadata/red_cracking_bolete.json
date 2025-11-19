@@ -1,0 +1,14 @@
+{
+  "name": "red_cracking_bolete",
+  "scientific_name": "Xerocomellus chrysenteron",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cep",
+  "scientific_name": "Boletus edulis",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 5,
+  "saturation": 0.8,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

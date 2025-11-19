@@ -1,0 +1,13 @@
+{
+  "name": "glistening_inkcap",
+  "scientific_name": "Coprinellus micaceus",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,13 @@
+{
+  "name": "cramp_balls",
+  "scientific_name": "Daldinia concentrica",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

@@ -1,0 +1,15 @@
+{
+  "name": "bitter_oysterling",
+  "scientific_name": "Panellus stipticus",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Weakness I (200 ticks)"
+  ],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

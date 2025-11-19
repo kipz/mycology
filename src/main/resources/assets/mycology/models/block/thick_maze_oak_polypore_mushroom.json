@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mycology:item/thick_maze_oak_polypore"
+  }
+}

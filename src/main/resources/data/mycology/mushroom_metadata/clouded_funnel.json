@@ -1,0 +1,13 @@
+{
+  "name": "clouded_funnel",
+  "scientific_name": "Clitocybe nebularis",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

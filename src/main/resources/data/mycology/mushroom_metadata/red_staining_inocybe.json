@@ -1,0 +1,16 @@
+{
+  "name": "red_staining_inocybe",
+  "scientific_name": "Inosperma erubescens",
+  "edibility": "DEADLY",
+  "toxicity": "LETHAL",
+  "nutrition": -4,
+  "saturation": 0.0,
+  "effects": [
+    "Poison V (0:30), Nausea IV (0:40), Weakness III (0:35)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

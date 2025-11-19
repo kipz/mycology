@@ -1,0 +1,13 @@
+{
+  "name": "scarlet_elf_cup",
+  "scientific_name": "Sarcoscypha coccinea",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

@@ -1,0 +1,13 @@
+{
+  "name": "willow_bracket",
+  "scientific_name": "Phellinus igniarius",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

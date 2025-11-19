@@ -1,0 +1,13 @@
+{
+  "name": "chicken_of_the_woods",
+  "scientific_name": "Laetiporus sulphureus",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 5,
+  "saturation": 0.7,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

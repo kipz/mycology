@@ -1,0 +1,14 @@
+{
+  "name": "earpick_fungus",
+  "scientific_name": "Auriscalpium vulgare",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

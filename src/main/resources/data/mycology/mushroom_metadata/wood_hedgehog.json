@@ -1,0 +1,14 @@
+{
+  "name": "wood_hedgehog",
+  "scientific_name": "Hydnum repandum",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 6,
+  "saturation": 0.8,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

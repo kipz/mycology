@@ -1,0 +1,14 @@
+{
+  "name": "bovine_bolete",
+  "scientific_name": "Suillus bovinus",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,13 @@
+{
+  "name": "blewit",
+  "scientific_name": "Lepista nuda",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 4,
+  "saturation": 0.6,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

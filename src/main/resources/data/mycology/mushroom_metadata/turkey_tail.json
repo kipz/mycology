@@ -1,0 +1,13 @@
+{
+  "name": "turkey_tail",
+  "scientific_name": "Trametes versicolor",
+  "edibility": "MEDICINAL_ONLY",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

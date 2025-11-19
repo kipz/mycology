@@ -1,0 +1,13 @@
+{
+  "name": "burgundydrop_bonnet",
+  "scientific_name": "Mycena haematopus",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

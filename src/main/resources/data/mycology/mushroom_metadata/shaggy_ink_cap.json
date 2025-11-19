@@ -1,0 +1,13 @@
+{
+  "name": "shaggy_ink_cap",
+  "scientific_name": "Coprinus comatus",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

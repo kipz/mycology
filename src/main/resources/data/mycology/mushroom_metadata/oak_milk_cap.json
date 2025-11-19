@@ -1,0 +1,13 @@
+{
+  "name": "oak_milk_cap",
+  "scientific_name": "Lactarius quietus",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 1,
+  "saturation": 0.2,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

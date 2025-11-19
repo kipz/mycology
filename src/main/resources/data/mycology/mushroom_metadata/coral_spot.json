@@ -1,0 +1,13 @@
+{
+  "name": "coral_spot",
+  "scientific_name": "Nectria cinnabarina",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

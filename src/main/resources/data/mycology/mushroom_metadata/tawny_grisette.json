@@ -1,0 +1,13 @@
+{
+  "name": "tawny_grisette",
+  "scientific_name": "Amanita fulva",
+  "edibility": "EDIBLE_CAUTION",
+  "toxicity": "MILD",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

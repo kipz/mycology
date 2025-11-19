@@ -1,0 +1,14 @@
+{
+  "name": "field_mushroom",
+  "scientific_name": "Agaricus campestris",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

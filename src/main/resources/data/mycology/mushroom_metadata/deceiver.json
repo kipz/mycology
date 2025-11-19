@@ -1,0 +1,14 @@
+{
+  "name": "deceiver",
+  "scientific_name": "Laccaria laccata",
+  "edibility": "EDIBLE_CAUTION",
+  "toxicity": "MILD",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

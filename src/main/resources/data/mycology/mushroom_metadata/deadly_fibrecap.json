@@ -1,0 +1,16 @@
+{
+  "name": "deadly_fibrecap",
+  "scientific_name": "Inocybe erubescens",
+  "edibility": "DEADLY",
+  "toxicity": "LETHAL",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Poison II (800 ticks), Confusion I (600 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

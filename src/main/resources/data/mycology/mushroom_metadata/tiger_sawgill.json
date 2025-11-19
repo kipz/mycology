@@ -1,0 +1,13 @@
+{
+  "name": "tiger_sawgill",
+  "scientific_name": "Lentinus tigrinus",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

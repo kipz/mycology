@@ -1,0 +1,16 @@
+{
+  "name": "sickener",
+  "scientific_name": "Russula emetica",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Poison II (400 ticks), Confusion I (300 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

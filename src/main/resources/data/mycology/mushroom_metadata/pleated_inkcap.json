@@ -1,0 +1,13 @@
+{
+  "name": "pleated_inkcap",
+  "scientific_name": "Parasola plicatilis",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

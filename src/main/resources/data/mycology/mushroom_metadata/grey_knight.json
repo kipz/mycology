@@ -1,0 +1,14 @@
+{
+  "name": "grey_knight",
+  "scientific_name": "Tricholoma terreum",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

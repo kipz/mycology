@@ -1,0 +1,16 @@
+{
+  "name": "lilac_fibrecap",
+  "scientific_name": "Inocybe geophylla",
+  "edibility": "DEADLY",
+  "toxicity": "LETHAL",
+  "nutrition": -3,
+  "saturation": 0.0,
+  "effects": [
+    "Poison IV (0:20), Nausea III (0:30), Weakness II (0:25)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

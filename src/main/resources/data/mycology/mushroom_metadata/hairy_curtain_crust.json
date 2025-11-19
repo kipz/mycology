@@ -1,0 +1,14 @@
+{
+  "name": "hairy_curtain_crust",
+  "scientific_name": "Stereum hirsutum",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

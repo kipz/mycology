@@ -1,0 +1,13 @@
+{
+  "name": "magpie_inkcap",
+  "scientific_name": "Coprinopsis picacea",
+  "edibility": "EDIBLE_CAUTION",
+  "toxicity": "MILD",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

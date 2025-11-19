@@ -1,0 +1,13 @@
+{
+  "name": "porcelain_fungus",
+  "scientific_name": "Oudemansiella mucida",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

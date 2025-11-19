@@ -1,0 +1,14 @@
+{
+  "name": "amethyst_deceiver",
+  "scientific_name": "Laccaria amethystina",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

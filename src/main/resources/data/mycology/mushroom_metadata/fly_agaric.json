@@ -1,0 +1,16 @@
+{
+  "name": "fly_agaric",
+  "scientific_name": "Amanita muscaria",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Poison II (600 ticks), Confusion II (800 ticks), Slowness II (400 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

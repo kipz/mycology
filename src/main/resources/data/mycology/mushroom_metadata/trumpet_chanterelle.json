@@ -1,0 +1,14 @@
+{
+  "name": "trumpet_chanterelle",
+  "scientific_name": "Cantharellus tubaeformis",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

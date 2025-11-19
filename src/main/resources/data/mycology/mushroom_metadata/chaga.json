@@ -1,0 +1,13 @@
+{
+  "name": "chaga",
+  "scientific_name": "Inonotus obliquus",
+  "edibility": "MEDICINAL_ONLY",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

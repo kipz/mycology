@@ -1,0 +1,14 @@
+{
+  "name": "bay_bolete",
+  "scientific_name": "Imleria badia",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 4,
+  "saturation": 0.6,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

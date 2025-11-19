@@ -1,0 +1,13 @@
+{
+  "name": "thick_maze_oak_polypore",
+  "scientific_name": "Daedalea quercina",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

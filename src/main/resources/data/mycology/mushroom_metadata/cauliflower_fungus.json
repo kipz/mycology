@@ -1,0 +1,14 @@
+{
+  "name": "cauliflower_fungus",
+  "scientific_name": "Sparassis crispa",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 5,
+  "saturation": 0.7,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,16 @@
+{
+  "name": "panther_cap",
+  "scientific_name": "Amanita pantherina",
+  "edibility": "DEADLY",
+  "toxicity": "LETHAL",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Poison III (800 ticks), Confusion III (1000 ticks), Wither I (600 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

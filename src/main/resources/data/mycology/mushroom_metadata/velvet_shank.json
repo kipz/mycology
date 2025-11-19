@@ -1,0 +1,14 @@
+{
+  "name": "velvet_shank",
+  "scientific_name": "Flammulina velutipes",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,14 @@
+{
+  "name": "common_puffball",
+  "scientific_name": "Lycoperdon perlatum",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jelly_babies",
+  "scientific_name": "Leotia lubrica",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Nausea I (0:20), Weakness I (0:15)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

@@ -1,0 +1,13 @@
+{
+  "name": "brown_birch_bolete",
+  "scientific_name": "Leccinum scabrum",
+  "edibility": "EDIBLE_CAUTION",
+  "toxicity": "MILD",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

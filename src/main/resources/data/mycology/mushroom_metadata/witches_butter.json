@@ -1,0 +1,13 @@
+{
+  "name": "witches_butter",
+  "scientific_name": "Tremella mesenterica",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 1,
+  "saturation": 0.1,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,13 @@
+{
+  "name": "beefsteak_fungus",
+  "scientific_name": "Fistulina hepatica",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

@@ -1,0 +1,13 @@
+{
+  "name": "parasol_mushroom",
+  "scientific_name": "Macrolepiota procera",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 4,
+  "saturation": 0.7,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

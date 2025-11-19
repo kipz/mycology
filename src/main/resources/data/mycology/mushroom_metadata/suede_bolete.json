@@ -1,0 +1,14 @@
+{
+  "name": "suede_bolete",
+  "scientific_name": "Xerocomus subtomentosus",
+  "edibility": "EDIBLE_CAUTION",
+  "toxicity": "MILD",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

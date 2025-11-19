@@ -1,0 +1,16 @@
+{
+  "name": "false_death_cap",
+  "scientific_name": "Amanita citrina",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Weakness I (0:30)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

@@ -1,0 +1,15 @@
+{
+  "name": "honey_fungus",
+  "scientific_name": "Armillaria mellea",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.4,
+  "effects": [
+    "Small chance of Nausea I (0:10)"
+  ],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

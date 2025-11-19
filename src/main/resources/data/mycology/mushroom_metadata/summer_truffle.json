@@ -1,0 +1,13 @@
+{
+  "name": "summer_truffle",
+  "scientific_name": "Tuber aestivum",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 7,
+  "saturation": 1.0,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

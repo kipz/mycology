@@ -1,0 +1,13 @@
+{
+  "name": "horn_of_plenty",
+  "scientific_name": "Craterellus cornucopioides",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 4,
+  "saturation": 0.6,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

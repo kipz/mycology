@@ -1,0 +1,16 @@
+{
+  "name": "sulphur_tuft",
+  "scientific_name": "Hypholoma fasciculare",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Poison II (600 ticks), Confusion I (400 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

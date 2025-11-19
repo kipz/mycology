@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import org.potato.mycology.MycologyMod;
 import org.potato.mycology.item.mushroom.MushroomItem;
+import net.minecraft.world.item.Items;
 
 public class ModItemGroups {
     public static final CreativeModeTab MYCOLOGY_TAB = Registry.register(
@@ -17,7 +18,7 @@ public class ModItemGroups {
             ResourceLocation.fromNamespaceAndPath(MycologyMod.MOD_ID, "mycology_tab"),
             FabricItemGroup.builder()
                     .title(Component.translatable("itemGroup.mycology.mycology_tab"))
-                    .icon(() -> new ItemStack(ModItems.CHANTERELLE))
+                    .icon(() -> new ItemStack(Items.RED_MUSHROOM)) // Fallback icon
                     .displayItems((parameters, output) -> {
                         // Automatically add all registered mushroom items from our mod
                         for (Item item : BuiltInRegistries.ITEM) {

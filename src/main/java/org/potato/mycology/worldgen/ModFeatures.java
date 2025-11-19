@@ -10,58 +10,98 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import org.potato.mycology.MycologyMod;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
- * Handles registration of worldgen features and biome modifications
+ * Data-driven worldgen feature registry
+ * Automatically loads and registers mushroom spawn features from the shrooms index
+ * NO INDIVIDUAL MUSHROOM REFERENCES - fully dynamic!
  */
 public class ModFeatures {
 
-    // Feature keys
-    public static final ResourceKey<PlacedFeature> PATCH_CHANTERELLE = createKey("patch_chanterelle");
-    public static final ResourceKey<PlacedFeature> PATCH_PORCINI = createKey("patch_porcini");
-    public static final ResourceKey<PlacedFeature> PATCH_FIELD_MUSHROOM = createKey("patch_field_mushroom");
-    public static final ResourceKey<PlacedFeature> PATCH_FLY_AGARIC = createKey("patch_fly_agaric");
+    private static final Map<String, ResourceKey<PlacedFeature>> FEATURE_KEYS = new HashMap<>();
 
-    private static ResourceKey<PlacedFeature> createKey(String name) {
-        return ResourceKey.create(Registries.PLACED_FEATURE,
-                ResourceLocation.fromNamespaceAndPath(MycologyMod.MOD_ID, name));
+    /**
+     * Get a feature key by mushroom name
+     */
+    public static ResourceKey<PlacedFeature> getFeatureKey(String mushroomName) {
+        return FEATURE_KEYS.get(mushroomName);
     }
 
     /**
-     * Register biome modifications to add our mushrooms to various biomes
+     * Get all feature keys
+     */
+    public static Map<String, ResourceKey<PlacedFeature>> getAllFeatureKeys() {
+        return new HashMap<>(FEATURE_KEYS);
+    }
+
+    /**
+     * Load mushroom names from index file
+     */
+    private static List<String> loadMushroomNames() {
+        List<String> names = new ArrayList<>();
+        try {
+            InputStream stream = ModFeatures.class.getResourceAsStream("/shrooms/_index.txt");
+            if (stream != null) {
+                BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    line = line.trim();
+                    if (!line.isEmpty() && !line.startsWith("#")) {
+                        names.add(line);
+                    }
+                }
+                reader.close();
+            }
+        } catch (IOException e) {
+            MycologyMod.LOGGER.error("Failed to load mushroom index", e);
+        }
+        return names;
+    }
+
+    /**
+     * Create resource key for a mushroom feature
+     */
+    private static ResourceKey<PlacedFeature> createKey(String mushroomName) {
+        return ResourceKey.create(
+                Registries.PLACED_FEATURE,
+                ResourceLocation.fromNamespaceAndPath(MycologyMod.MOD_ID, "patch_" + mushroomName)
+        );
+    }
+
+    /**
+     * Register biome modifications for all mushrooms dynamically
      */
     public static void registerBiomeModifications() {
-        MycologyMod.LOGGER.info("Registering biome modifications for mushroom features");
+        List<String> mushroomNames = loadMushroomNames();
 
-        // Add chanterelles to forest biomes (common in deciduous forests)
-        BiomeModifications.addFeature(
-                BiomeSelectors.tag(BiomeTags.IS_FOREST),
-                GenerationStep.Decoration.VEGETAL_DECORATION,
-                PATCH_CHANTERELLE
-        );
+        MycologyMod.LOGGER.info("Registering {} mushroom features in biomes dynamically", mushroomNames.size());
 
-        // Add porcini to forest and taiga biomes (loves coniferous forests)
-        BiomeModifications.addFeature(
-                BiomeSelectors.tag(BiomeTags.IS_FOREST)
-                        .or(BiomeSelectors.tag(BiomeTags.IS_TAIGA)),
-                GenerationStep.Decoration.VEGETAL_DECORATION,
-                PATCH_PORCINI
-        );
+        // Create and cache feature keys, then register them to biomes
+        for (String name : mushroomNames) {
+            try {
+                ResourceKey<PlacedFeature> featureKey = createKey(name);
+                FEATURE_KEYS.put(name, featureKey);
 
-        // Add field mushrooms to plains and meadows
-        BiomeModifications.addFeature(
-                BiomeSelectors.tag(BiomeTags.IS_FOREST),
-                GenerationStep.Decoration.VEGETAL_DECORATION,
-                PATCH_FIELD_MUSHROOM
-        );
+                // Add to forest and taiga biomes
+                BiomeModifications.addFeature(
+                        BiomeSelectors.tag(BiomeTags.IS_FOREST)
+                                .or(BiomeSelectors.tag(BiomeTags.IS_TAIGA)),
+                        GenerationStep.Decoration.VEGETAL_DECORATION,
+                        featureKey
+                );
+            } catch (Exception e) {
+                MycologyMod.LOGGER.error("Failed to register biome feature for: " + name, e);
+            }
+        }
 
-        // Add fly agaric to taiga and forest biomes (loves birch and pine)
-        BiomeModifications.addFeature(
-                BiomeSelectors.tag(BiomeTags.IS_TAIGA)
-                        .or(BiomeSelectors.tag(BiomeTags.IS_FOREST)),
-                GenerationStep.Decoration.VEGETAL_DECORATION,
-                PATCH_FLY_AGARIC
-        );
-
-        MycologyMod.LOGGER.info("Biome modifications registered successfully");
+        MycologyMod.LOGGER.info("Successfully registered {} mushroom features in biomes", FEATURE_KEYS.size());
     }
 }

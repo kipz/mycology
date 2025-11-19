@@ -1,0 +1,13 @@
+{
+  "name": "larch_bolete",
+  "scientific_name": "Suillus grevillei",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 3,
+  "saturation": 0.5,
+  "effects": [],
+  "habitat": [
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}

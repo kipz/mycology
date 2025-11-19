@@ -1,0 +1,16 @@
+{
+  "name": "common_white_inocybe",
+  "scientific_name": "Inocybe geophylla",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": -2,
+  "saturation": 0.0,
+  "effects": [
+    "Poison III (0:15), Nausea II (0:20)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

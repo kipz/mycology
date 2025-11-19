@@ -1,0 +1,16 @@
+{
+  "name": "yellow_knight",
+  "scientific_name": "Tricholoma equestre",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Weakness III (0:45), Nausea I (0:20)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

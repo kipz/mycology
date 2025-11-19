@@ -1,0 +1,15 @@
+{
+  "name": "deadly_dapperling",
+  "scientific_name": "Lepiota brunneoincarnata",
+  "edibility": "DEADLY",
+  "toxicity": "LETHAL",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Wither II (600 ticks), Poison III (1000 ticks)"
+  ],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

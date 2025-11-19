@@ -1,0 +1,16 @@
+{
+  "name": "false_chanterelle",
+  "scientific_name": "Hygrophoropsis aurantiaca",
+  "edibility": "INEDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Weakness I (200 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

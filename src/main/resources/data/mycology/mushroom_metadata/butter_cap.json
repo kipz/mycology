@@ -1,0 +1,13 @@
+{
+  "name": "butter_cap",
+  "scientific_name": "Rhodocollybia butyracea",
+  "edibility": "EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 1,
+  "saturation": 0.2,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

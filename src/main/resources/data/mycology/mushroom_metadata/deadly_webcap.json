@@ -1,0 +1,16 @@
+{
+  "name": "deadly_webcap",
+  "scientific_name": "Cortinarius rubellus",
+  "edibility": "DEADLY",
+  "toxicity": "LETHAL",
+  "nutrition": 0,
+  "saturation": 0.0,
+  "effects": [
+    "Wither I (1200 ticks), Poison II (1200 ticks)"
+  ],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 4
+}

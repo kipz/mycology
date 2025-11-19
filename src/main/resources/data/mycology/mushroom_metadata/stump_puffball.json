@@ -1,0 +1,13 @@
+{
+  "name": "stump_puffball",
+  "scientific_name": "Lycoperdon pyriforme",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": 2,
+  "saturation": 0.3,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

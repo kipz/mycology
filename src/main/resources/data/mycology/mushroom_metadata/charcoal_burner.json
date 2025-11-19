@@ -1,0 +1,13 @@
+{
+  "name": "charcoal_burner",
+  "scientific_name": "Russula cyanoxantha",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 4,
+  "saturation": 0.6,
+  "effects": [],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 2
+}

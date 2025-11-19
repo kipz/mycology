@@ -1,0 +1,15 @@
+{
+  "name": "poison_pie",
+  "scientific_name": "Hebeloma crustuliniforme",
+  "edibility": "POISONOUS",
+  "toxicity": "SEVERE",
+  "nutrition": -1,
+  "saturation": 0.0,
+  "effects": [
+    "Poison II (0:25), Nausea II (0:30)"
+  ],
+  "habitat": [
+    "FOREST"
+  ],
+  "spawn_rarity": 4
+}

@@ -1,0 +1,14 @@
+{
+  "name": "chanterelle",
+  "scientific_name": "Cantharellus cibarius",
+  "edibility": "CHOICE_EDIBLE",
+  "toxicity": "NONE",
+  "nutrition": 4,
+  "saturation": 0.6,
+  "effects": [],
+  "habitat": [
+    "FOREST",
+    "TAIGA"
+  ],
+  "spawn_rarity": 2
+}
